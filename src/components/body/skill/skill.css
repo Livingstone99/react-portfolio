@@ -1,0 +1,14 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.skill-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.skills-list{
+    flex:1;
+    flex-direction: row;
+}
