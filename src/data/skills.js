@@ -15,9 +15,10 @@ export const SkillData = [
         icon: <i class="devicon-dart-plain colored"></i>,
       },
       {
-          name: "CSS",
-          icon: <i class="devicon-css3-plain-wordmark"></i>
+        name: "CSS",
+        icon: <i class="devicon-css3-plain-wordmark"></i>,
       },
+  
     ],
   },
   {
@@ -28,19 +29,40 @@ export const SkillData = [
         icon: <i class="devicon-python-plain colored"></i>,
       },
       {
-          name:"Django",
-          icon: <i class="devicon-django-plain colored"></i>
-
+        name: "",
+        icon: <i class="devicon-django-plain colored"></i>,
       },
       {
-          name: "nginx",
-          icon: <i class="devicon-nginx-plain colored"></i>
+        name: "",
+        icon: <i class="devicon-nginx-plain colored"></i>,
       },
       {
-          name: "Docker",
-        icon: <i class="devicon-docker-plain colored"></i>
+        name: "Docker",
+        icon: <i class="devicon-docker-plain colored"></i>,
       },
+      {
+        name: "AWS",
 
+        icon: <i class="devicon-amazonwebservices-original colored"></i>,
+      },
+      {
+        name: "NodeJs",
+
+        icon: <i class="devicon-nodejs-plain colored"></i>
+      },
+      {
+        name: "ExpressJs",
+
+        icon: <i class="devicon-express-original colored"></i>
+      },
+      {
+        name:"Mongo Db",
+        icon: <i class="devicon-mongodb-plain colored"></i>
+      },
+      {
+        name:"Linux",
+        icon: <i class="devicon-linux-plain colored"></i>
+      }
     ],
   },
 ];

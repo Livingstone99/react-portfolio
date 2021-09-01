@@ -15,8 +15,8 @@ function Skill() {
             <div className="skills-container">
                 {data.map((item)=>{
                     return (
-                        <div className="skill-section">
-                            <label htmlFor="" className="skills-section-title">{item.type}</label>
+                        <div className="skills-section">
+                            <label className="skills-section-title">{item.type}</label>
                             <div className="skills-list">
                                 {item.list.map((skill)=> {
                                     return (
@@ -30,6 +30,7 @@ function Skill() {
                     )
                 })}
             </div>
+            
         </div>
     )
 }
