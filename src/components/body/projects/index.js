@@ -6,9 +6,11 @@ import ProjectCard from "./project-card";
 function Project() {
   const data = ProjectData;
   return (
+    
     <div className="projects">
-      <label className="section-title">Projects</label>
       <Separator />
+      <label className="section-title">Projects</label>
+      
 
 
       {data.map((project) => {

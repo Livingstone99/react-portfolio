@@ -19,6 +19,11 @@
     max-width: 70%;
     justify-content:flex-end ;
 }
+.skill-divider{
+    height: 5px;
+    width: 90%;
+    color: orangered;
+}
 @media only screen and (max-width:720px){
     .skills-list {
         max-width: 100%;

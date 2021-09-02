@@ -22,6 +22,9 @@ function Body() {
               <Skill />
 
           </section>
+          <section id="work">
+              <Work />
+          </section>
         
       </div>
     )

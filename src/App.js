@@ -6,7 +6,8 @@ import Home from "./components/home";
 
 function App() {
   return (
-    <div className="home">
+    <div>
+      <div className="home">
      
       <div>
         <Header />
@@ -14,10 +15,13 @@ function App() {
       <div>
         <Body />
       </div>
-      <div>
+      
+    </div>
+    <div>
         <Footer />
       </div>
     </div>
+    
   );
 }
 
