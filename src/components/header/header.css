@@ -25,7 +25,7 @@
 .logo{
     display: flex;
     font-size: 36px;
-    color: blueviolet;
+    color: rgb(37, 63, 148);
     font-weight: 800;
 }
 
@@ -39,4 +39,4 @@
    .logo{
        font-size: 24px;
    }
-}
+} 

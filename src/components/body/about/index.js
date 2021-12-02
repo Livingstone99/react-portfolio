@@ -7,10 +7,13 @@ function About() {
   return (
     <div className="about">
       <div className="about-top">
-        <div className="about-info">
-          Hello There 👋 , this is <br />
-          <span className="info-name">St💎neStack </span>
-          <p>
+        <div className="holder">
+          <div className="about-info">
+          <div className="stonestack">Hello There 👋 , this is <br />
+          <span className="info-name">St💎neStack </span></div>
+        </div>
+        <div className="typy">
+        <p className = 'doings'> 
             I develop with {''}
             <Typical
             loop={Infinity}
@@ -18,7 +21,7 @@ function About() {
             wrapper='b'
             speed={400}
             steps={[
-              'python🐍(Proficiency)' ,
+              'python🐍' ,  
               1000, 
               'javascript📍 ',
               1000,
@@ -28,6 +31,7 @@ function About() {
               1000,
             ]} />
           </p>
+        </div>
         </div>
         <div className="about-photo"></div>
         <img src={require("../../../assets/coding.png").default} className = "picture" alt="" />

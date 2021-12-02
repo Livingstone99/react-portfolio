@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import Mobile from "./mobile";
 import Web from "./web";
 import './header.css';
+import { loadAnimation } from "lottie-web";
+import { defineLordIconElement } from "lord-icon-element";
+// register lottie and define custom element
+defineLordIconElement(loadAnimation);
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="header">
-      <div className="logo">StoneStack</div>
+   <i class="fi-rr-home logo"></i>
       <div className="menu">
         <div className="web-menu">
           <Web />

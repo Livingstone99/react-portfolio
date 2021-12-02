@@ -18,6 +18,9 @@
     font-weight: 600;
     font-size: 36px;
 }
+.doings{
+    font-size: 25px;
+}
 
 @media only screen and (max-width:720px){
 .about-top{
