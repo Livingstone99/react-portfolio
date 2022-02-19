@@ -33,7 +33,7 @@ export const SkillData = [
         icon: <i class="devicon-nginx-plain colored"></i>,
       },
       {
-        name: 'Docker',
+        name: 'Dockerization',
         icon: <i class="devicon-docker-plain colored"></i>,
       },
       {
@@ -52,11 +52,11 @@ export const SkillData = [
         icon: <i class="devicon-express-original colored"></i>,
       },
       {
-        name: 'Mongo Db',
+        name: 'MongoDb',
         icon: <i class="devicon-mongodb-plain colored"></i>,
       },
       {
-        name: 'Linux',
+        name: 'Linux unix',
         icon: <i class="devicon-linux-plain colored"></i>,
       },
     ],
