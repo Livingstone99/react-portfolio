@@ -1,68 +1,64 @@
 export const SkillData = [
   {
-    type: "Client Side tool",
+    type: 'Client Side tool',
     list: [
       {
-        name: "ReactJs",
+        name: 'ReactJs',
         icon: <i class="devicon-react-original colored"></i>,
       },
       {
-        name: "Flutter",
+        name: 'Flutter',
         icon: <i class="devicon-flutter-plain colored"></i>,
       },
+
       {
-        name: "Dart",
-        icon: <i class="devicon-dart-plain colored"></i>,
-      },
-      {
-        name: "CSS",
+        name: 'html and CSS',
         icon: <i class="devicon-css3-plain-wordmark"></i>,
       },
-  
     ],
   },
   {
-    type: "Server side tools",
+    type: 'Server side tools',
     list: [
       {
-        name: "Python",
+        name: 'Python',
         icon: <i class="devicon-python-plain colored"></i>,
       },
       {
-        name: "",
+        name: '',
         icon: <i class="devicon-django-plain colored"></i>,
       },
       {
-        name: "",
+        name: '',
         icon: <i class="devicon-nginx-plain colored"></i>,
       },
       {
-        name: "Docker",
+        name: 'Docker',
         icon: <i class="devicon-docker-plain colored"></i>,
       },
       {
-        name: "AWS",
+        name: 'AWS',
 
         icon: <i class="devicon-amazonwebservices-original colored"></i>,
       },
       {
-        name: "NodeJs",
+        name: 'NodeJs',
 
-        icon: <i class="devicon-nodejs-plain colored"></i>
+        icon: <i class="devicon-nodejs-plain colored"></i>,
       },
       {
-        name: "ExpressJs",
+        name: 'ExpressJs',
 
-        icon: <i class="devicon-express-original colored"></i>
+        icon: <i class="devicon-express-original colored"></i>,
       },
       {
-        name:"Mongo Db",
-        icon: <i class="devicon-mongodb-plain colored"></i>
+        name: 'Mongo Db',
+        icon: <i class="devicon-mongodb-plain colored"></i>,
       },
       {
-        name:"Linux",
-        icon: <i class="devicon-linux-plain colored"></i>
-      }
+        name: 'Linux',
+        icon: <i class="devicon-linux-plain colored"></i>,
+      },
     ],
   },
-];
+]
