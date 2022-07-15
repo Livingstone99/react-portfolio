@@ -1,4 +1,5 @@
 export const ProjectData = [
+  //new update
   {
     id: 1,
     title: 'Social Media App(on production)',
