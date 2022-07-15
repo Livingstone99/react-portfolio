@@ -22,9 +22,9 @@ function Body() {
               <Skill />
 
           </section>
-          <section id="work">
+          {/* <section id="work">
               <Work />
-          </section>
+          </section> */}
         
       </div>
     )
